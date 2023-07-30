@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backgroundImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/total"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:paddingLeft="320dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:layout_marginTop="-10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GrowGreen"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="27sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/buttonImage1"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:src="@drawable/tree_animation1"
+                android:layout_marginBottom="-25dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l1"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="-60dp">
+
+                <ImageView
+                    android:id="@+id/buttonImage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="-10dp"
+                    android:src="@drawable/tree_animation2" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/l2"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="-120dp">
+
+                <ImageView
+                    android:id="@+id/buttonImage3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-25dp"
+                    android:src="@drawable/tree_animation3"/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/l3"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="-130dp">
+
+                <ImageView
+                    android:id="@+id/buttonImage4"
+                    android:layout_width="88dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="-30dp"
+                    android:src="@drawable/tree_animation4" />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/l4"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="-130dp">
+
+            <ImageView
+                android:id="@+id/buttonImage5"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="-25dp"
+                android:src="@drawable/tree_animation5"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="-110dp">
+
+                <ImageView
+                    android:id="@+id/buttonImage6"
+                    android:layout_width="88dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="-30dp"
+                    android:src="@drawable/tree_animation6" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/l6"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="-130dp">
+
+                <ImageView
+                    android:id="@+id/buttonImage7"
+                    android:layout_width="172dp"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="-25dp"
+                    android:src="@drawable/tree_animation8" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/l7"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

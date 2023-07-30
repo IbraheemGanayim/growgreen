@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">growgreen</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="sID">ID</string>
+    <string name="btnStart">Start Journey</string>
+    <string name="game">Start Game!</string>
+    <string name="l1">1</string>
+    <string name="l2">2</string>
+    <string name="l3">3</string>
+    <string name="l4">4</string>
+    <string name="l5">5</string>
+    <string name="l6">6</string>
+    <string name="l7">7</string>
+    <string name="l8">8</string>
+    <string name="l9">9</string>
+    <string name="l10">10</string>
+    <string name="total">0 $</string>
+</resources>

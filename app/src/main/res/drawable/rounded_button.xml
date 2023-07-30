@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" /> <!-- White background color -->
+            <corners android:radius="50dp" /> <!-- 50dp radius for rounded corners -->
+        </shape>
+    </item>
+</selector>
